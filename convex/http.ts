@@ -27,7 +27,6 @@ http.route({
         status: 400,
       });
     }
-
     const payload = await request.json();
     const body = JSON.stringify(payload);
 
